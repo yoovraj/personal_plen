@@ -14,7 +14,7 @@ import serial
 
 app = Flask(__name__)
 api = Api(app)
-ser = serial.Serial('/dev/tty.usbmodem1421')
+ser = serial.Serial('/dev/tty.usbmodem1411')
 
 
 class Motor(Resource):
